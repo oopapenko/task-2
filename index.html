@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <img src="/img/paralell.png" alt="">
+        <table>
+            <tr><td>A: <input type="number" id="task1_1" value=10></td><td>B: <input type="number" id="task1_2" value=20></td><td>angle: <input type="number" id="task1_3" value=50></td></tr> 
+            <tr><td>Area: <span>-</span></td><td>h:<span>-</span></td></tr>  
+        </table>
+    </div>
+    <hr> 
+    <div>
+        <img src="/img/circle.png" alt=""> 
+        <table>
+            <tr><td>R: <input type="number" id="task2_1" value=4></td></tr> 
+            <tr><td>Area: <span>-</span></td><td>L:<span>-</span></td></tr>       
+        </table>
+    </div>   
+    <hr> 
+    <div>   
+        <img src="/img/elips.png" alt="">
+        <table>
+            <tr><td>Horizontal R: <input type="number" id="task3_1" value=11></td><td>Vertical R: <input type="number" id="task3_2" value=5></td></tr> 
+            <tr><td>Area: <span>-</span></td><td>L:<span>-</span></td></tr>       
+        </table>
+    </div>
+    <hr>
+    <div>
+        <img src="/img/squere.png" alt="">
+        <table>    
+            <tr><td>A: <input type="number" id="task4_1" value=10></td></tr> 
+            <tr><td>Diagonal: <span>-</span></td><td>Area:<span>-</span></td></tr>       
+        </table>
+    </div>
+    <hr>
+    <div>
+        <img src="/img/rect.png" alt="">
+        <table>    
+            <tr><td>A: <input type="number" id="task5_1" value=3></td><td>B: <input type="number" id="task5_2" value=13></td></tr> 
+            <tr><td>Diagonal: <span>-</span></td><td>Area:<span>-</span></td></tr>       
+        </table>
+    </div>
+    <hr>
+    <div>
+        <img src="/img/triangke.png" alt="">
+        <table>    
+            <tr><td>A: <input type="number" id="task6_1" value=5></td><td>B: <input type="number" id="task6_2" value=7></td><td>C:<span></span></td></tr> 
+            <tr><td>a: <span>-</span></td><td>b:<span>-</span></td><td>c: <span>-</span></td></tr>
+            <tr><td>Area: <span>-</span></td><td>h: <span>-</span></td><td><input onclick="switchIC()" type="checkbox" ><span>Миттєвий розрахунок</span><button onclick="calculate()">Обчислити все</button></td></tr>       
+        </table>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
